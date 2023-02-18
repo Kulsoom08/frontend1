@@ -14,11 +14,11 @@
 
 }
 .top{
-    margin:41px 33px;
+    margin:33px 33px;
     box-sizing: border-box;
 
 /* position: absolute; */
-width: 1645px;
+width: 1080px;
 height: 135px;
 left: 41px;
 top: 33px;
@@ -30,7 +30,7 @@ border-radius: 20px;
 
 .outbox{
 position: relative;
-width: 1728px;
+width: 1120px;
 height: 1550px;
 background: #111111;
 }
@@ -42,13 +42,15 @@ background: #111111;
 .lefta{
     display:grid;
     order:4;
+    width: 100px;
+    height: 50px;
 }
 
 .list{
     /* position: absolute; */
     padding: 30px;
-    width: 236px;
-    height: 29px;
+    width: 200px;
+    height: 100px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
@@ -65,8 +67,8 @@ background: #111111;
     order:3;
 box-sizing: border-box;
 /* position: absolute; */
-width: 506px;
-height: 306px;
+width: 475px;
+height: 275px;
 left: 41px;
 top: 928px;
 background: #111111;
@@ -85,12 +87,16 @@ justify-content:space-between;
 color:white;
 box-sizing: border-box;
 /* position: absolute; */
-width: 506px;
-height: 306px;
+width: 350px;
+height: 250px;
 left: 41px;
 top: 928px;
 border: 2px solid #808080;
 border-radius: 20px;
+display:flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: center;
 }
 .linkh{
     /* position: absolute; */
@@ -102,9 +108,11 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
 font-size: 24px;
-line-height: 29px;
+/* line-height: 29px; */
 text-transform: uppercase;
 color: #FFFFFF;
+display:flex;
+
 }
 .sbox{
     font-family: 'Inter';
@@ -116,11 +124,11 @@ text-transform: uppercase;
 color: #808080;
 
 display:flex;
-flex-template-columns:auto;
-flex-template-rows:auto;
+flex-template-columns:1fr 1fr;
+
 flex-direction: column;
 justify-content: space-evenly;
-align-items: baseline;
+align-items: center;
 
 }
 
@@ -130,8 +138,8 @@ align-items: baseline;
     order:1;
 
     /* position: absolute; */
-    width: 1102px;
-    height: 1036px;
+    width: 600px;
+    height: 650px;
     left: 584px;
     top: 197px;
     
@@ -149,7 +157,7 @@ top: 227px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
-font-size: 48px;
+font-size: 25px;
 line-height: 58px;
 text-transform: capitalize;
 color: #FFFFFF;
@@ -157,8 +165,8 @@ color: #FFFFFF;
 .table1{
 box-sizing: border-box;
 /* position: absolute; */
-width: 1013px;
-height: 874px;
+width: 600px;
+height: 550px;
 left: 636px;
 top: 326px;
 border: 1px solid #808080;
@@ -170,14 +178,14 @@ border-collapse:collapse;
 
 th{
     /* position: absolute; */
-width: 89px;
-height: 29px;
+width: 45px;
+height: 25px;
 left: 730px;
 top: 346px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
-font-size: 24px;
+font-size: 18px;
 line-height: 29px;
 text-transform: uppercase;
 color: #808080;
@@ -187,14 +195,14 @@ border-bottom:1px solid  #808080;
 }
 td{
     /* position: absolute; */
-width: 280px;
-height: 29px;
+width: 200px;
+height: 20px;
 left: 863px;
 top: 478px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 200;
-font-size: 24px;
+font-size: 15px;
 line-height: 29px;
 text-transform: uppercase;
 color: #808080;
